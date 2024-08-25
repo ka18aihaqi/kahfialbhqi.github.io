@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+
+/* start-header-style */
+.navbar {
+    background-color: rgba(196, 196, 196, 0.5);
+}
+
+.offcanvas {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.offcanvas-body {
+    padding: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 700;
+}
+
+.nav-link:hover, .nav-link:active {
+    transition: 0.3s ease-in-out;
+    color: #125012;
+}
+
+/* end-header-style */
+
+
+
+
+
+/* start-body-style */
+
+.home-hero {
+    background-color: #C4C4C4;
+}
+
+    /* start-home-style */
+    #home-container {
+        padding-top: 200px;
+    }
+
+    #home-container img {
+        align-self: end;
+    }
+
+    .home-hero .pre-title {
+        letter-spacing: 5px;
+        color: white;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .home-hero .hero-name {
+        color: white;
+        font-weight: 800;
+        font-size: 40px;
+    }
+
+    .home-hero .paragraf {
+        letter-spacing: 2px;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 50px;
+    }
+    /* end-home-style */
+
+
+
+
+
+
+    /* start-about-style */
+    .about-hero {
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .about-hero .box {
+        padding: 40px 40px;
+        border: 1px solid white;
+    }
+
+    .about-hero .pre-title {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .about-hero .paragraf {
+        color: white;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+
+    #about-container abbr {
+        text-decoration: none;
+    }
+
+    #btn-about {
+        margin-top: 20px;
+        padding: 8px 1.5rem;
+        transition: 0.3s ease-in-out;
+    }
+    
+    #btn-about:hover {
+        background-color: black;
+        box-shadow: #125012 0px 3px 5px;
+    }
+    /* end-about-style */
+
+
+
+
+
+
+    /* start-project-style */
+    .project-hero {
+        background-color: #C4C4C4;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .project-hero .pre-title {
+        font-weight: 700;
+        letter-spacing: 5px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        text-shadow: #388E3C 5px 5px 5px;
+    }
+
+    .project-hero .card {
+        box-shadow: #125012 5px 5px 5px;
+        background-color: #999999;
+        margin: 30px;
+    }
+
+    .project-hero .card-title {
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .card-title, .card-text {
+        margin-top: 20px;
+        color: white;
+    }
+
+    #btn-project {
+        margin: 20px 20px;
+        transition: 0.3s ease-in-out;
+        background-color: #2E7D32;
+        box-shadow: #125012 0px 3px 5px;
+    }
+    
+    #btn-project:hover {
+        color: black;
+        background-color: #388E3C;
+    }
+    /* end-project-style */
+
+
+
+
+
+
+    /* start-experience-style */
+    .experience-hero {
+        background-color: black;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .experience-hero .pre-title {
+        color: white;
+        font-weight: 700;
+        letter-spacing: 5px;
+        padding-bottom: 100px;
+        text-transform: uppercase;
+        text-shadow: #388E3C 5px 5px 5px;
+    }
+
+    .experience-hero .box {
+        padding: 50px 30px;
+        box-shadow: #125012 5px 5px 5px;
+    }
+
+    #box-coursera, #box-seamolec,
+    #box-polindra, #box-iflabs {
+        margin-top: 100px;
+    }
+
+    .experience-hero .hero-name {
+        letter-spacing: 1.5px;
+        color: #999999;
+        font-weight: 700;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .experience-hero .hero-desc {
+        letter-spacing: 1.5px;
+        font-weight: 500;
+        font-size: 13px;
+        color: #999999;
+    }
+    .experience-hero .paragraf {
+        letter-spacing: 2px;
+        color: #999999;
+        font-size: 15px;
+        font-weight: 300;
+        padding-top: 30px;
+    }
+
+    .experience-hero img {
+        width: 200px;
+        padding: 20px;
+    }
+
+    .experience-hero a:hover {
+        transition: 0.3s ease-in-out;
+        color: #125012;
+    }
+
+    /* end-experience-style */
+
+    /* start-contact-style */
+    .contact-hero {
+        background-color: #C4C4C4;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .contact-hero .row {
+        padding: 50px;
+    }
+
+    .contact-hero .contact {
+        box-shadow: #125012 5px 5px 5px;
+        background-color: #388E3C;
+        padding: 80px 50px;
+    }
+
+    .contact .pre-title {
+        font-weight: 600;
+    }
+
+    .contact .hero-name {
+        font-weight: 800;
+        padding-bottom: 30px;
+    }
+
+    .contact .paragraf {
+        font-weight: 450;
+    }
+
+    #btn-contact {
+        margin-top: 20px;
+        padding: 8px 1.5rem;
+        transition: 0.3s ease-in-out;
+        background-color: black;
+        color: white;
+    }
+    
+    #btn-contact:hover {
+        color: black;
+        font-weight: bold;
+        background-color: #125012;
+        box-shadow: #125012 0px 3px 5px;
+    }
+    /* end-contact-style */
+
+/* end-body-style */
+
+
+
+
+
+/* start-footer-style */
+footer {
+    background-color: black;
+}
+
+#footer-container img {
+    width: 10%;
+    filter: grayscale(1);
+    padding-bottom: 15px;
+}
+
+#footer-container img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transition: 0.3s ease-in-out;
+}
+
+#footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#footer-container, a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 600;
+}
+
+#footer-container a:hover {
+    transition: 0.3s ease-in-out;
+    color: #125012;
+}
+/* end-footer-style */
