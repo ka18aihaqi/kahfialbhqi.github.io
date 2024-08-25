@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Montserrat";
+}
+
+#hero .card-kala-rasa {
+    background-image: url('images/bg-coffee.jpg');
+    background-size: cover; /* Gambar selalu memenuhi kontainer */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Kontainer dengan tinggi penuh */
+    width: 100%;
+}
+
+#hero .card-parking {
+    background-image: url('images/bg-parking.jpg');
+    background-size: cover; /* Gambar selalu memenuhi kontainer */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Kontainer dengan tinggi penuh */
+    width: 100%;
 }
 
 #hero .card-title {
     font-weight: bolder;
     color: white;
     text-transform: uppercase;
-    padding-top: 300px;
     text-shadow: black 5px 5px 5px;
+}
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
